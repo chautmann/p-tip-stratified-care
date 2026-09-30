@@ -49,7 +49,7 @@ The scripts are numbered in the order in which they are intended to be run:
 12. treatment-duration sensitivity analysis
 13. concordance and sensitivity analyses
 
-The participant-level datasets are not included in this repository. The scripts therefore assume access to the required input data and use relative paths within the project structure.
+The participant-level datasets are not included in this repository. The scripts therefore require access to the original data and cannot be run independently from the data sources. Relative paths are used throughout the analysis workflow.
 
 ## Citation
 

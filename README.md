@@ -33,6 +33,24 @@ Required R packages are specified in the individual analysis scripts.
 
 The repository contains the R analysis scripts used to reproduce the analyses reported in the manuscript.
 
+The scripts are numbered in the order in which they are intended to be run:
+
+1. data splitting and imputation
+2. linear regression
+3. lasso regression
+4. decision tree
+5. random forest
+6. gradient boosting model
+7. model-performance table
+8. personalized predictions
+9. ROC analysis
+10. output tables
+11. figures
+12. treatment-duration sensitivity analysis
+13. concordance and sensitivity analyses
+
+The participant-level datasets are not included in this repository. The scripts therefore assume access to the required input data and use relative paths within the project structure.
+
 ## Citation
 
 Please cite the associated manuscript when using this code.

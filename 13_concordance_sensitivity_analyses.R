@@ -39,7 +39,6 @@
 rm(list = ls())
 
 setwd(dirname(rstudioapi::getActiveDocumentContext()$path))
-getwd()
 
 library(tidyverse)
 library(broom)
